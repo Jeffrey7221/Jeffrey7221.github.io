@@ -1,3 +1,36 @@
+
 h1 {
     text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-indent: 2em;
+    font-size: 20px;
+}
+
+body {
+    background-color: #e0bf7d;
+}
+#top {
+    height: 270px;
+}
+.leeleft   {
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%; 
+}
+
+.leeright   {
+    float: right;
+    margin-left: 4%;
+    margin-right: 4%; 
+}
+
+.short {
+    margin-top: 70px;
 }
