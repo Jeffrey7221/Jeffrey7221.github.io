@@ -22,12 +22,12 @@ body {
 .leeleft   {
     float: left;
     margin-left: 4%;
-    margin-right: 4%; 
+    margin-right: 3%; 
 }
 
 .leeright   {
     float: right;
-    margin-left: 4%;
+    margin-left: 3%;
     margin-right: 4%; 
 }
 
