@@ -21,14 +21,14 @@ body {
 }
 .leeleft   {
     float: left;
-    margin-left: 4%;
-    margin-right: 3%; 
+    margin-left: 3%;
+    margin-right: 2%; 
 }
 
 .leeright   {
     float: right;
-    margin-left: 3%;
-    margin-right: 4%; 
+    margin-left: 2%;
+    margin-right: 3%; 
 }
 
 .short {
