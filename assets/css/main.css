@@ -17,7 +17,7 @@
 		font-size: 16px;
 	}
 
-	.projects {
+	.label {
 		text-align: center;
 	}
 
@@ -27,7 +27,26 @@
 		color: white;
 		font-weight: bold;
 		font-size: 50px;
+	}
+
+	#clubs {
+		position: relative;
+		bottom: 30px;
+		color: black;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	#contactinfo {
 		text-align: center;
+	}
+
+	#classes {
+		color: #dbdbdb !important;
+	}
+
+	.githubs {
+		font-size: 12px;
 	}
 
 	/* ------------------------- SELF ADDED CODE ------------------------------------------ */
@@ -2010,7 +2029,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: transparent;
+			background-color: #5AA6ED;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 			color: #ffffff !important;
 		}
@@ -2020,7 +2039,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #8792a3;
+				background-color: #99cdff;
 			}
 
 			input[type="submit"].special:active,
@@ -3894,14 +3913,6 @@
 		padding: 6rem 0 4rem 0 ;
 		background: #f2f2f2;
 	}
-
-		#footer .copyright {
-			color: #bbb;
-			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
-			padding: 0;
-			text-align: center;
-		}
 
 		@media screen and (max-width: 736px) {
 
