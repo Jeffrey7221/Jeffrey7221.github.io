@@ -1,9 +1,3 @@
-/*
-	Transitive by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -111,15 +105,15 @@
 
 			}
 
-		// Scrolly.
+		// Scrolly. 
 			if ( $( ".scrolly" ).length ) {
 
-				var $height = $('#header').height() * 1.55;
+				var $height = $('#header').height() * .95;
 
 				$('.scrolly').scrolly({
 					offset: $height
 				});
-			}
+			} 
 
 		// Menu.
 			$('#menu')
