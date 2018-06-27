@@ -1,8 +1,3 @@
-#intro {
-	color: white;
-	font-size: 16px;
-}
-
 body {
 	margin: 0px;
 }
@@ -15,11 +10,12 @@ body {
 .inner h1 {
 	font-size: 5rem !important;
 	font-family: 'SignPainterHouseBrush', 'sans-serif';	
-	}
+	
 }
 
 h2 {
-	font-size: 
+	color: white;
+	font-size: 1.3rem !important;
 	font-family: 'Indie Flower';
 }
 /* ------------------- Start of Gallery ---------------------- */
@@ -27,19 +23,82 @@ h2 {
 #gallery {
 	background-color: white;
 	color: black;
-	height: 1000px;
+	height: 1250px;
+	/*background-color: rgb(252, 212, 174); */
 }
 
 .header {
 	position: relative;
 	text-align: center;
-	top: 100px;
+	padding:100px 0px;
 	font-size: 75px;
 	font-weight: bold;
 	font-family: 'SignPainterHouseBrush', 'sans-serif';
 	
 }
 
+#slideshowWrapper {
+	width: 750px;
+	height: 750px;
+	border: 1px gray solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	background-color: white;
+	border-radius: 1%;
+}
+
+.slideshow {
+	width: 100%;
+	position: relative;
+}
+
+.w3-button {	
+	position: absolute;
+	font-size: 40px;
+	color: rgb(104, 104, 104);
+	padding: 10px;
+	background-color: #00c3ff;
+}
+
+.w3-button:hover {
+	background-color: #55cfff;
+}
+
+.w3-button.w3-display-left {
+	left: 0px;
+	top: 50%;
+	opacity: 1;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.w3-button.w3-display-right {
+	right: 0px;
+	top: 50%;
+	opacity: 1;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.mySlides {
+	padding-top: 150px;
+	height: 600px;
+	position: relative;
+}
+
+.pic {
+	margin: auto;
+	display: block;
+}
+
+.description {
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	bottom: 0;
+	vertical-align: bottom;
+	padding-left: 50px;
+	
+}
 /* ------------------- End of Gallery ---------------------- */
 
 
@@ -62,7 +121,7 @@ h2 {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/streetwear.jpeg");
+		background-image: url("../../images/streetwear/streetwear.jpeg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
