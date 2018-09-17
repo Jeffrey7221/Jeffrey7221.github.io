@@ -3132,6 +3132,14 @@
 			background-position: center;
 			position: relative;
 		}
+		
+			.wrapper.style3 .button.alt.streetwear {
+				
+				position: relative;
+				display: block;
+				margin: auto;
+				width: 25%;
+			}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
 				color: #ffffff;

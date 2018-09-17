@@ -21,7 +21,7 @@ h2 {
 /* ------------------- Start of Gallery ---------------------- */
 
 #gallery {
-	background-color: white;
+	background-color: rgb(255, 236, 206);
 	color: black;
 	height: 1250px;
 	/*background-color: rgb(252, 212, 174); */
@@ -40,7 +40,7 @@ h2 {
 #slideshowWrapper {
 	width: 750px;
 	height: 750px;
-	border: 1px gray solid;
+	border: 5px gray solid;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -53,7 +53,7 @@ h2 {
 	position: relative;
 }
 
-.w3-button {	
+.button {	
 	position: absolute;
 	font-size: 40px;
 	color: rgb(104, 104, 104);
@@ -61,18 +61,18 @@ h2 {
 	background-color: #00c3ff;
 }
 
-.w3-button:hover {
+.button:hover {
 	background-color: #55cfff;
 }
 
-.w3-button.w3-display-left {
+.button.display-left {
 	left: 0px;
 	top: 50%;
 	opacity: 1;
 	border-radius: 0px 10px 10px 0px;
 }
 
-.w3-button.w3-display-right {
+.button.display-right {
 	right: 0px;
 	top: 50%;
 	opacity: 1;
@@ -93,10 +93,11 @@ h2 {
 .description {
 	position: absolute;
 	height: 200px;
-	width: 100%;
+	width: 94%;
 	bottom: 0;
 	vertical-align: bottom;
-	padding-left: 50px;
+	padding: 10px 0px 0px 50px;
+	border-top: 3px solid gray;
 	
 }
 /* ------------------- End of Gallery ---------------------- */
