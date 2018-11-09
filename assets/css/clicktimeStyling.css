@@ -1,0 +1,53 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+th {
+    width: 20%;
+    height: 70px;
+}
+
+table tr {
+    text-align: center;
+}
+
+.btn-gradient {
+    
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    outline: none !important;
+}
+
+.lrg {
+    padding: 10px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.small {
+    margin-top: 15px;
+}
+
+.btn-gradient.cyan {
+    background: rgba(27,188,194,1);
+}
+.btn-gradient.cyan:active   {background: #169499;}
+
+.btn-gradient.red {
+    background: rgb(255, 84, 98);
+}
+.btn-gradient.red:active   {background: rgb(221, 47, 85);}
