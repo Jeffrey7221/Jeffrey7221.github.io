@@ -1,19 +1,11 @@
 // Javascript code for CodeTime Challenge
 var times = new Array(2);
-
-navigator.permissions.query({name:'geolocation'})
-    .then(function(permissionStatus) {
-        console.log('geolocation permission state is ', permissionStatus.state);
-        if(permissionStatus.state == 'prompt') {
-            // navigator.geolocation.getCurrentPosition(revealPosition,positionDenied,geoSettings);
-        }
-    });
-
     
 button = document.getElementById("startButton");
 button.innerHTML = "Start the Stopwatch";
 button.onclick = function() {
     var time = new Date().getTime();
+        // Code for starting the stop watch
     if(button.innerHTML == "Start the Stopwatch") {
         times[0] = time;
         localStorage.setItem("startTime", time);
@@ -22,7 +14,9 @@ button.onclick = function() {
             recordTableEntry(new Date(time).toLocaleString(), "start", position.coords.latitude, position.coords.longitude);    
         })
         
-    } else {
+    } 
+        // Code for stopping the stop watch
+    else {
         times[1] = time;
         button.innerHTML = "Start the Stopwatch";
         navigator.geolocation.getCurrentPosition(function(position) {
@@ -44,6 +38,7 @@ if(localStorage.getItem("timeTable")) {
 var rowNum = table.rows.length;
 
 function recordTableEntry(startDate, state, latitude, longitude) {
+            // Calculate the current time zone
     var timeZone = -new Date().getTimezoneOffset()/60;
     if(timeZone == 0)
         timeZone = "-0";
@@ -64,7 +59,8 @@ function recordTableEntry(startDate, state, latitude, longitude) {
 
             // Stores the updated table into localStorage
         localStorage.setItem("timeTable", table.innerHTML);
-    } else if (state == "stop") {
+    } 
+    else if (state == "stop") {
         startDate = startDate + "\nGMT" + timeZone;
         var updateRow = table.rows[rowNum-1];
 
