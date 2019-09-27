@@ -41,12 +41,39 @@
 		text-align: center;
 	}
 
+	#one {
+		padding-bottom: 20px;
+	}
+
 	#classes {
 		color: #dbdbdb !important;
 	}
 
 	.githubs {
 		font-size: 12px;
+	}
+
+	#experience {
+		left: 10px;
+	}
+
+	.company {
+		font-size: 24px;
+		margin-bottom: 0px;
+		padding-top: 25px;
+	}
+
+	#techexcel-logo {
+		float: left;
+		height: 115px;
+		margin-right: 66px;
+		margin-top: 10px;
+	}
+
+	#everbridge-logo {
+		float: left;
+		height: 125px;
+		right: 50px;
 	}
 
 	/* ------------------------- SELF ADDED CODE ------------------------------------------ */
